@@ -22,7 +22,7 @@ CREATE TABLE `item_categories` (
 CREATE TABLE `customer_orders` (
   `customer_id` int(10) NOT NULL,
   `attribute` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `value` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `value` int(10) COLLATE utf8_unicode_ci NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   KEY `customer_properties_customer_id_attribute_value_index` (`customer_id`, `attribute`, `value`)
