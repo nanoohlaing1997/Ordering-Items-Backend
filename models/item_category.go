@@ -13,6 +13,16 @@ type ItemCategory struct {
 	UpdatedAt time.Time `gorm:"column:updated_at"`
 }
 
+type ItemCategoryDB struct {
+	db *gorm.DB
+}
+
+func ItemCategoryManager(db *gorm.DB) *ItemCategoryDB {
+	return &ItemCategoryDB{
+		db: db,
+	}
+}
+
 func ItemCategoryCreate(db *gorm.DB, category *ItemCategory) (*ItemCategory, error) {
 	if res := db.Create(&category); res.RowsAffected <= 0 {
 		return nil, res.Error
