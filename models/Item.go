@@ -9,24 +9,27 @@ import (
 type Item struct {
 	ID         uint64    `json:"id"`
 	Name       string    `json:"name"`
-	Price      string    `json:"price"`
-	CategoryID uint64    `gorm:"column:category_id"`
+	Price      float64   `json:"price"`
+	Quantity   int64     `json:"quantity"`
+	CategoryID uint64    `json:"category_id"`
 	CreatedAt  time.Time `gorm:"column:created_at"`
 	UpdatedAt  time.Time `gorm:"column:updated_at"`
 }
 
 type ItemDB struct {
-	db *gorm.DB
+	db    *gorm.DB
+	model *Item
 }
 
 func ItemManager(db *gorm.DB) *ItemDB {
 	return &ItemDB{
-		db: db,
+		db:    db,
+		model: &Item{},
 	}
 }
 
-func ItemCreate(db *gorm.DB, item *Item) (*Item, error) {
-	if res := db.Create(&item); res.RowsAffected <= 0 {
+func (im *ItemDB) ItemCreate(item *Item) (*Item, error) {
+	if res := im.db.Create(&item); res.RowsAffected <= 0 {
 		return nil, res.Error
 	}
 	return item, nil

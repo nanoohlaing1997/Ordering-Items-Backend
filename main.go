@@ -2,30 +2,51 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"net/http"
-	"noh/go-order-items/controller"
-	"os"
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
+	"github.com/nanoohlaing1997/online-ordering-items/api"
+	"github.com/nanoohlaing1997/online-ordering-items/env"
+	"github.com/nanoohlaing1997/online-ordering-items/log"
+	"github.com/nanoohlaing1997/online-ordering-items/models"
 )
+
+var environ = env.GetEnviroment()
 
 func main() {
 	fmt.Println("hello from Ordering Items Project")
-
-	// Initialize the router
-	router := mux.NewRouter().StrictSlash(true)
+	log := log.GetLogger()
+	log.Info("testing 123")
 
 	// Register Routes
-	RegisterProductRoutes(router)
+	router := RegisterRoute()
 
 	// Start the server
 	godotenv.Load()
-	log.Println(fmt.Sprintf("Starting Server on port %s", os.Getenv("PORT")))
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", os.Getenv("PORT")), router))
+	// log.Println(fmt.Sprintf("Starting Server on port %s", environ.RestPort))
+	log.Printf("Starting Server on port %s", environ.RestPort)
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%v", environ.RestPort), router))
 }
 
-func RegisterProductRoutes(router *mux.Router) {
-	router.HandleFunc("/api/customer/order", controller.GetOrder).Methods("GET")
+func RegisterRoute() *mux.Router {
+	dbm := models.NewDatabaseManager()
+	controller := api.NewControllerManager(dbm)
+
+	router := mux.NewRouter()
+
+	// Register API route
+	// Public routes
+	publicRouter := router.PathPrefix("/order").Subrouter()
+	publicRouter.HandleFunc("/signup", controller.SignUpHandler).Methods("POST")
+	publicRouter.HandleFunc("/signin", controller.SignInHandler).Methods("GET")
+	publicRouter.HandleFunc("/token/refresh", controller.TokenRefreshHandler).Methods("GET")
+
+	// Authentated routes
+	authRouter := router.PathPrefix("/order/auth").Subrouter()
+	authRouter.HandleFunc("/healthz", controller.HealthzHandler).Methods("GET")
+
+	// Testing healthz route
+	router.HandleFunc("/healthz", controller.HealthzHandler).Methods("GET")
+	return router
 }

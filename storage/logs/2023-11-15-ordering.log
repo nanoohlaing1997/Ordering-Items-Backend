@@ -1,0 +1,146 @@
+2023-11-15 08:17:18.994987116[36m [INFO] [0mtesting 123
+2023-11-15 08:17:19.000080795[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:18:15.459115948[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.866ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:18:15.771294432[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[2.381ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$pSJwNoh.XZCR7SLtGIn1o.zV8m8HBxOq2NHQL9Us0fRrceMxKp3c6','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTA5NX0.aoo4PexvR907cy0bSdDN-4f5QNK1eIpu4Tu-nWjMyv4','NLHmON_EqEQagA==','2023-11-15 08:18:15.769','2023-11-15 08:18:15.769')
+2023-11-15 08:20:21.360117715[36m [INFO] [0mtesting 123
+2023-11-15 08:20:21.365005157[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:20:26.175009920[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[1.194ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:20:26.501664122[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[4.561ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$PEHa/U5GANg25ltsgWOsHeGPpRzcyNqc/ZA1JoKb0OYWI.GcMu0hi','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTIyNn0.B3eV9LqbZRqyinSWB1tTlK6MDI64Yq2xElBqyh8XV6c','10AnDT8_28lDWA==','2023-11-15 08:20:26.497','2023-11-15 08:20:26.497')
+2023-11-15 08:20:46.020584859[36m [INFO] [0mtesting 123
+2023-11-15 08:20:46.024795147[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:20:48.170856934[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.868ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:20:48.490734730[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[4.286ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$CSHcXFGhCVT7B4PlFnqE.ebac5BJFMMwDyNc3WtBb1jwaBvzGAUcm','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTI0OH0.tWjBk1OqGtxF6FFKULOvfP_eZW93smF32nG-xZdFRJo','fMtHv74hCodw6A==','2023-11-15 08:20:48.487','2023-11-15 08:20:48.487')
+2023-11-15 08:22:32.365866218[36m [INFO] [0mtesting 123
+2023-11-15 08:22:32.370144625[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:22:39.729251115[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.859ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:22:40.046038766[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[4.142ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$MhA8l4Icv5bqGxCtfQ0DM.vv32xtSp6Wl1/swjcpkKzKYO1q3W2Ru','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTM2MH0.rX_kzCDwWbv4xsAXgLr8sCb-DnPgBFf-o6veSFiaPhI','kprOsK5qS9TWFQ==','2023-11-15 08:22:40.042','2023-11-15 08:22:40.042')
+2023-11-15 08:27:04.917600299[36m [INFO] [0mtesting 123
+2023-11-15 08:27:04.921405151[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:27:07.597410383[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.673ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:27:07.917921431[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[3.840ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$rv8KFBgt6YN4oRkwWRCj0.F1hmMwVce4hs0vmT4OWqNNj9lYdrae2','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTYyN30.aKvyiGFBBtDLPIoxgHZxnrFOgGhmPDGgNXvHogTgiBk','yuqHlyI_JAS9lA==','2023-11-15 08:27:07.914','2023-11-15 08:27:07.914')
+2023-11-15 08:28:19.635638099[36m [INFO] [0mtesting 123
+2023-11-15 08:28:19.639953554[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:28:23.766492958[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.848ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:28:24.090157373[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[3.238ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$04FmEWNqMKmtvzdCrb6OiOWeATvYkwaz7GLWSwCbMQ6t/i3B9I/pu','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTcwNH0.fSRVY7FEmW4vYWfcBzSUVLK91sMYXBR7Txe51qBuBwI','oaJFfiIG7ylCHg==','2023-11-15 08:28:24.087','2023-11-15 08:28:24.087')
+2023-11-15 08:33:23.772424226[36m [INFO] [0mtesting 123
+2023-11-15 08:33:23.776437585[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:33:29.376565796[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.679ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:33:29.704169343[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[3.324ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$3jhvPuKICV6u0BZ8U8dQ3u1Uf.CdYPBIxoe1NZ7lxnRrqaj1CkpRy','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MjAwOX0.8LmYtcbGlvRiIhpfDNysLKrf3_wRQnD3rrlrkuEqjDM','VE__PTl9POApEw==','2023-11-15 08:33:29.701','2023-11-15 08:33:29.701')
+2023-11-15 08:36:41.689789767[36m [INFO] [0mtesting 123
+2023-11-15 08:36:41.694790559[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:36:45.195933013[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.780ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:36:45.507930427[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[2.393ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$3Szrpdt7dVlUa4NQc963AuoNBRc1o5E8usB4a47IEo0pt/odmxXdG','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MjIwNX0.JhVYnLNuXn-FKf7i-sF4vDMDWIqksm0-RvhgiUjLBoQ','USchfaO56t-QEg==','2023-11-15 08:36:45.506','2023-11-15 08:36:45.506')
+2023-11-15 08:37:06.063706116[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.573ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:37:06.384710295[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[2.830ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$5R5tyIcNmTrhPaP/47odcOxiEBSYxnMlAgvu3mbBd8xctn1IQjzyS','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MjIyNn0.80dnsfehUkOqoI6dYLmKzFG3FjDoZf6eSFyDBrnjNuE','1xXJeAbWo3W8jw==','2023-11-15 08:37:06.382','2023-11-15 08:37:06.382')
+2023-11-15 09:41:56.320559752[36m [INFO] [0mtesting 123
+2023-11-15 09:41:56.325504016[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:01.653844112[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.735ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:42:01.961558683[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[3.031ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$k8DNUCr41S/SbPtt3VpdW.IiH6rDqIOocFKUlBg6jyukw1TqnrJ/u','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0NjEyMX0.Ap7xBSHi5d2CmXfb2IMgSa4qz9uAqBxvXnf8lTMrL_k','YHpTCOYQADbd7g==','2023-11-15 09:42:01.959','2023-11-15 09:42:01.959')
+2023-11-15 09:42:24.156138931[36m [INFO] [0mtesting 123
+2023-11-15 09:42:24.157611611[36m [INFO] [0mtesting 123
+2023-11-15 09:42:24.160622943[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:24.162105614[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:24.162361368[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-15 09:42:28.471279177[36m [INFO] [0mtesting 123
+2023-11-15 09:42:28.476886814[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:28.542998831[36m [INFO] [0mtesting 123
+2023-11-15 09:42:28.548201744[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:28.548413060[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-15 09:42:54.031475390[36m [INFO] [0mtesting 123
+2023-11-15 09:42:54.047742155[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:54.105264398[36m [INFO] [0mtesting 123
+2023-11-15 09:42:54.113756701[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:42:54.114481305[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-15 09:43:05.002442558[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.805ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:43:05.316202281[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[2.463ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$8oZtVwETLOCFAgrMSAoah.PTsfHdq3YhNsmJCL8MzDGGmF/bUxbnS','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0NjE4NX0.9ZEi5j0nGMwRRC8PQWfGjCO_BwPaNk8BQNMzkVSqqN0','gLz2IMEjhxTJdg==','2023-11-15 09:43:05.314','2023-11-15 09:43:05.314')
+2023-11-15 09:43:10.751499389[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.593ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:43:10.753173740[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.529ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:43:28.110242315[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.579ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:43:29.827257255[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.593ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:43:31.671261098[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.612ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:43:32.314550728[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.593ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:44:19.401889211[36m [INFO] [0mtesting 123
+2023-11-15 09:44:19.406025993[36m [INFO] [0mtesting 123
+2023-11-15 09:44:19.407792663[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:44:19.410119411[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 09:44:19.410333431[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-15 09:46:18.992526504[36m [INFO] [0mtesting 123
+2023-11-15 09:46:18.996145915[36m [INFO] [0mStarting Server on port 8009
+2023-11-15 09:46:56.506206032[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[2.367ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:04.904935804[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[1.647ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:07.943366071[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.732ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:09.000141482[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[1.179ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:09.889053879[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[1.819ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:10.635296917[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.590ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:10.819174939[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.551ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:11.055326438[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.594ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:11.227381943[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.653ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:11.485381448[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[2.004ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:11.703136932[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.521ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:11.766774938[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.479ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:11.955230905[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.570ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:12.123298272[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.538ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:12.183329536[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.660ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:20.368613518[36m [INFO] [0mtesting 123
+2023-11-15 09:47:20.373483399[36m [INFO] [0mStarting Server on port 8009
+2023-11-15 09:47:25.928048920[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[1.210ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:47:36.775478148[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.658ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:49:07.981788784[36m [INFO] [0mtesting 123
+2023-11-15 09:49:07.987844655[36m [INFO] [0mStarting Server on port 8009
+2023-11-15 09:49:12.048083020[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[1.259ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:49:15.340287247[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.605ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:49:16.025225350[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.599ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:49:16.479124432[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.745ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:49:16.797955207[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.663ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 09:49:17.116228232[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:43
+[0m[33m[0.666ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'nanoohlaing@gmail.com' ORDER BY `users`.`id` LIMIT 1

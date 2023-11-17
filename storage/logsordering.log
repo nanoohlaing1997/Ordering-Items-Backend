@@ -1,0 +1,10 @@
+2023-11-15 08:25:32.241264577[36m [INFO] [0mtesting 123
+2023-11-15 08:25:32.245563949[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:25:37.714370991[36m [INFO] [0mtesting 123
+2023-11-15 08:25:37.718252069[36m [INFO] [0mStarting Server on port 8008
+2023-11-15 08:25:39.168803229[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:43 [35;1mrecord not found
+[0m[33m[0.756ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'email' ORDER BY `users`.`id` LIMIT 1
+2023-11-15 08:25:39.486706690[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:35
+[0m[33m[3.335ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`token`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohlaing','nanoohlaing@gmail.com','$2a$12$DwMN2XJFVeqj.AY4SbbV1ud8cyg.XcY4RQZIZviGrjIZfL6JJGCt.','yangon myanmar',0,'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hbm9vaGxhaW5nQGdtYWlsLmNvbSIsImV4cCI6MTcwMDY0MTUzOX0.uK92m-0qdoRv294HZZChC8shRkvl9n-aL8HezRuK60U','9rl-dKdn4m1vaA==','2023-11-15 08:25:39.484','2023-11-15 08:25:39.484')
+2023-11-15 08:26:45.291688745[36m [INFO] [0mtesting 123
+2023-11-15 08:26:45.295896600[36m [INFO] [0mStarting Server on port 8008

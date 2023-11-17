@@ -1,0 +1,155 @@
+2023-11-17 04:08:34.071815831[36m [INFO] [0mtesting 123
+2023-11-17 04:08:34.076856009[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 04:08:45.322234994[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:42 [35;1mrecord not found
+[0m[33m[3.312ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 04:08:45.629127492[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:34
+[0m[33m[3.426ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`refresh_token`,`created_at`,`updated_at`) VALUES ('thidar kyaw','thidakyaw@gmail.com','$2a$12$/N94M8NcABTfuWgI27hft.jAWKk7DiI5LjPDwNNxW5GNdJ1IKz3dS','yangon myanmar',0,'eUnL3rG1iVG5JA==','2023-11-17 04:08:45.626','2023-11-17 04:08:45.626')
+2023-11-17 04:15:26.489134930[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.656ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 04:15:44.735078490[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.558ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 04:15:54.059698206[36m [INFO] [0mtesting 123
+2023-11-17 04:15:54.063846364[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 04:15:55.660164032[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[1.069ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 04:16:26.848024664[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.703ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 05:14:30.491592939[36m [INFO] [0mtesting 123
+2023-11-17 05:14:30.496542494[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:15:40.993317633[36m [INFO] [0mtesting 123
+2023-11-17 05:15:40.997941369[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:18:37.634076038[36m [INFO] [0mtesting 123
+2023-11-17 05:18:37.649386555[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:20:54.484122740[36m [INFO] [0mtesting 123
+2023-11-17 05:20:54.488647245[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:20:55.428586072[36m [INFO] [0mtesting 123
+2023-11-17 05:20:55.433429766[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:20:55.433617428[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:21:17.630206804[36m [INFO] [0mtesting 123
+2023-11-17 05:21:17.636250581[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:21:45.237334827[36m [INFO] [0mtesting 123
+2023-11-17 05:21:45.246522388[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:21:50.402860733[36m [INFO] [0mtesting 123
+2023-11-17 05:21:50.413421054[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:21:50.653220442[36m [INFO] [0mtesting 123
+2023-11-17 05:21:50.661814084[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:21:50.662055238[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:21:54.819741862[36m [INFO] [0mtesting 123
+2023-11-17 05:21:54.828288807[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:21:55.889535036[36m [INFO] [0mtesting 123
+2023-11-17 05:21:55.893211818[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:21:55.893363601[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:23:51.663846117[36m [INFO] [0mtesting 123
+2023-11-17 05:23:51.667894229[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:23:51.699912884[36m [INFO] [0mtesting 123
+2023-11-17 05:23:51.704246789[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:23:51.704420956[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:23:54.673425457[36m [INFO] [0mtesting 123
+2023-11-17 05:23:54.677158389[36m [INFO] [0mtesting 123
+2023-11-17 05:23:54.677871362[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:23:54.680726182[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:23:54.680952257[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:24:37.096553971[36m [INFO] [0mtesting 123
+2023-11-17 05:24:37.104423492[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:40.067710138[36m [INFO] [0mtesting 123
+2023-11-17 05:24:40.073463503[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:41.098272005[36m [INFO] [0mtesting 123
+2023-11-17 05:24:41.102639526[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:41.102881926[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:24:52.559094544[36m [INFO] [0mtesting 123
+2023-11-17 05:24:52.567357668[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:52.574528207[36m [INFO] [0mtesting 123
+2023-11-17 05:24:52.579859252[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:52.580047894[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:24:55.443781056[36m [INFO] [0mtesting 123
+2023-11-17 05:24:55.452789942[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:55.464250232[36m [INFO] [0mtesting 123
+2023-11-17 05:24:55.469349933[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:24:55.469562544[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:25:17.083780231[36m [INFO] [0mtesting 123
+2023-11-17 05:25:17.087917189[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:25:17.125440788[36m [INFO] [0mtesting 123
+2023-11-17 05:25:17.129562233[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:25:17.129820869[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:26:31.835040129[36m [INFO] [0mtesting 123
+2023-11-17 05:26:31.841666017[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:26:31.842789119[36m [INFO] [0mtesting 123
+2023-11-17 05:26:31.848038451[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:26:31.848245727[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:27:55.388507334[36m [INFO] [0mtesting 123
+2023-11-17 05:27:55.393584243[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:28:22.496607646[36m [INFO] [0mtesting 123
+2023-11-17 05:28:22.502960614[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:28:55.511469374[36m [INFO] [0mtesting 123
+2023-11-17 05:28:55.511945218[36m [INFO] [0mtesting 123
+2023-11-17 05:28:55.515674231[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:28:55.515703047[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:28:55.515923819[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 05:29:05.967285424[36m [INFO] [0mtesting 123
+2023-11-17 05:29:05.977167465[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:29:05.977564720[36m [INFO] [0mtesting 123
+2023-11-17 05:29:05.985677011[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 05:29:05.985934335[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:49:16.690695491[36m [INFO] [0mtesting 123
+2023-11-17 07:49:16.694352185[36m [INFO] [0mtesting 123
+2023-11-17 07:49:16.695986753[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:49:16.698422555[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:49:16.698651862[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:49:30.711654579[36m [INFO] [0mtesting 123
+2023-11-17 07:49:30.716160457[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:49:42.997833923[36m [INFO] [0mtesting 123
+2023-11-17 07:49:43.002161914[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:49:43.041647562[36m [INFO] [0mtesting 123
+2023-11-17 07:49:43.046582201[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:49:43.046804348[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:50:33.324533452[36m [INFO] [0mtesting 123
+2023-11-17 07:50:33.329866293[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:51.571692576[36m [INFO] [0mtesting 123
+2023-11-17 07:50:51.571715864[36m [INFO] [0mtesting 123
+2023-11-17 07:50:51.577391457[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:51.577427917[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:51.577620650[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:50:54.906396233[36m [INFO] [0mtesting 123
+2023-11-17 07:50:54.910175613[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:54.938461230[36m [INFO] [0mtesting 123
+2023-11-17 07:50:54.942416203[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:54.942588701[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:50:57.447731573[36m [INFO] [0mtesting 123
+2023-11-17 07:50:57.452248921[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:57.492097656[36m [INFO] [0mtesting 123
+2023-11-17 07:50:57.496362785[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:50:57.496556227[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:53:04.004072320[36m [INFO] [0mtesting 123
+2023-11-17 07:53:04.008857679[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:53:43.701869483[36m [INFO] [0mtesting 123
+2023-11-17 07:53:43.705833942[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:53:53.182641358[36m [INFO] [0mtesting 123
+2023-11-17 07:53:53.187929304[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:54:21.224296256[36m [INFO] [0mtesting 123
+2023-11-17 07:54:21.229713883[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:54:21.267085524[36m [INFO] [0mtesting 123
+2023-11-17 07:54:21.272598326[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:54:21.272972022[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 07:55:45.205210698[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.850ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 07:55:54.334196112[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.666ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 07:56:47.848381050[36m [INFO] [0mtesting 123
+2023-11-17 07:56:47.852709563[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:58:39.399366930[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[1.048ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 07:59:27.525207248[36m [INFO] [0mtesting 123
+2023-11-17 07:59:27.533076052[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:59:31.699951690[36m [INFO] [0mtesting 123
+2023-11-17 07:59:31.705235847[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:59:31.846254680[36m [INFO] [0mtesting 123
+2023-11-17 07:59:31.850898405[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 07:59:31.851106560[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 08:00:07.910675243[36m [INFO] [0mtesting 123
+2023-11-17 08:00:07.916701237[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:00:11.718951707[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.838ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:00:20.957042262[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.601ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:00:37.241035612[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.660ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
