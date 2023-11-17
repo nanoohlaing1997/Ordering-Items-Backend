@@ -20,34 +20,39 @@ Simple testing project with golang
 ### API Doc
 
 - POST Sign_up of User
-  request(json) {
+
+  `request(json)` {
 	"username",
 	"email",
 	"password",
 	"address"
   }
-  response(json) {
+
+  `response(json)` {
 	"token" : "gsdgsdewcf",
 	"refresh_token" : "tw523532523"
   }
 
 - GET Sign_in of User
-  request(json) {
+
+  `request(json)` {
 	"email",
 	"password"
   }
-  response(json) {
+
+  `response(json)` {
 	"token" : "gsdgsdewcf",
 	"refresh_token" : "tw523532523"
   }
 
 - GET token refresh
-  request(json) {
+
+  `request(json)` {
 	"email",
 	"refresh_token"
   }
 
-  response(json) {
+  `response(json)` {
 	"token" : "sdgfewtwdsf",
 	"refresh_token" : "sdgdsgssdg"
   }
