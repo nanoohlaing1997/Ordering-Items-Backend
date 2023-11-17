@@ -17,7 +17,6 @@ var environ = env.GetEnviroment()
 func main() {
 	fmt.Println("hello from Ordering Items Project")
 	log := log.GetLogger()
-	log.Info("testing 123")
 
 	// Register Routes
 	router := RegisterRoute()

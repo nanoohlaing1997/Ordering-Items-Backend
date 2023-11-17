@@ -153,3 +153,44 @@
 [0m[33m[0.601ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
 2023-11-17 08:00:37.241035612[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
 [0m[33m[0.660ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:38:35.062974282[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:38:35.065692426[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:38:35.066048378[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 08:41:40.466532826[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.938ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'thidakyaw@gmail.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:43:56.026391538[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:42 [35;1mrecord not found
+[0m[33m[0.542ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'noh@gmail.co' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:43:56.338743612[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:34
+[0m[33m[2.968ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohaling','noh@gmail.co','$2a$12$dgLF8IrvECgdAgRYnyCHvuwV0CpNMB1J4HtRwHk5mOHEwhtKqK5Ey','yangon myanmar',0,'0e4TJP8i0yX1vg==','2023-11-17 08:43:56.336','2023-11-17 08:43:56.336')
+2023-11-17 08:44:12.401474545[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:42 [35;1mrecord not found
+[0m[33m[0.565ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'noh@email.com' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:44:12.713350409[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:34
+[0m[33m[2.536ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohaling','noh@email.com','$2a$12$PgyyRoxarBRNuJXGSweAT.CpT3vqzBFPIYls/TEUePJs2QPxnkc5W','yangon myanmar',0,'1HczgSQTtekSCA==','2023-11-17 08:44:12.711','2023-11-17 08:44:12.711')
+2023-11-17 08:44:36.929564223[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:42 [35;1mrecord not found
+[0m[33m[0.570ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:44:37.240143754[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:34
+[0m[33m[3.584ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohaling','noh@e.e','$2a$12$/aKfrZevyHuU0sXthpSkQOPaNy3qbTnJzmlUVQzYYPfMiBbY0qP1G','yangon myanmar',0,'x6RYG5W1u6RE0A==','2023-11-17 08:44:37.237','2023-11-17 08:44:37.237')
+2023-11-17 08:45:31.776365765[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.935ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:45:44.188537899[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.625ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:45:55.437074022[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.591ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:45:58.017728530[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.708ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:46:00.282200134[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.726ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:46:02.457499633[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.619ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@e.e' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:46:23.457224098[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:46:23.468242214[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:46:23.468443604[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 08:47:49.144779072[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:47:49.169804189[36m [INFO] [0mStarting Server on port 8008
+2023-11-17 08:47:49.170055193[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-17 08:48:22.904224057[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:42 [35;1mrecord not found
+[0m[33m[0.852ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'ingyin@frontiir.net' ORDER BY `users`.`id` LIMIT 1
+2023-11-17 08:48:23.219663304[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:34
+[0m[33m[2.786ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohaling','ingyin@frontiir.net','$2a$12$WcTtrx8Y1dcwpZ1MqWMKa.bEfPZheliV5dYl8THq/leQ9RBLdDcha','yangon myanmar',0,'QJ_ViGUv_gQWjA==','2023-11-17 08:48:23.217','2023-11-17 08:48:23.217')
+2023-11-17 08:48:42.024467171[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:42
+[0m[33m[0.716ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'ingyin@frontiir.net' ORDER BY `users`.`id` LIMIT 1
