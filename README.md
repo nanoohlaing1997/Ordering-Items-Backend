@@ -154,7 +154,6 @@ Simple testing project with golang
 	]
   }
 
-
 ### Database Table Diagram
 
 ![order Database Diagram](ordering_item.png)
