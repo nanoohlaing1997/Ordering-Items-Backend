@@ -122,6 +122,38 @@ Simple testing project with golang
 	"UpdatedAt": "2023-11-23T07:43:15.261Z"
   }
 
+- GET get items by category_id ( both )
+
+  `request ( route parameter)`
+   {category_id}
+
+  `response (json)` {
+	"id": 3,
+	"name": "i-pad",
+	"CreatedAt": "2023-11-20T05:14:01Z",
+	"UpdatedAt": "2023-11-20T05:14:01Z",
+	"Items": [
+		{
+			"id": 1,
+			"name": "iphone 5s",
+			"price": 5000,
+			"quantity": 10,
+			"category_id": 3,
+			"CreatedAt": "2023-11-21T09:30:05Z",
+			"UpdatedAt": "2023-11-21T09:30:05Z"
+		},
+		{
+			"id": 2,
+			"name": "iphone 6 plus",
+			"price": 10000,
+			"quantity": 10,
+			"category_id": 3,
+			"CreatedAt": "2023-11-23T07:43:15Z",
+			"UpdatedAt": "2023-11-23T07:43:15Z"
+		}
+	]
+  }
+
 
 ### Database Table Diagram
 
