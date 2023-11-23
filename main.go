@@ -43,7 +43,17 @@ func RegisterRoute() *mux.Router {
 
 	// Authentated routes
 	authRouter := router.PathPrefix("/order/auth").Subrouter()
-	authRouter.HandleFunc("/healthz", controller.HealthzHandler).Methods("GET")
+	authRouter.Use(api.AuthMiddleWare)
+	authRouter.HandleFunc("/categories", controller.GetCategories).Methods("GET")
+	authRouter.HandleFunc("/category/{category_id}/items", controller.GetItems).Methods("GET")
+
+	// Admin routes
+	adminRouter := router.PathPrefix("/order/admin").Subrouter()
+	adminRouter.Use(api.AuthMiddleWare)
+	adminRouter.Use(api.AdminMiddleware)
+	adminRouter.HandleFunc("/category/{user_id}", controller.CreateCategory).Methods("POST")
+	adminRouter.HandleFunc("/category/{user_id}/remove", controller.DeleteCategory).Methods("DELETE")
+	adminRouter.HandleFunc("/item/{user_id}/create", controller.CreateItem).Methods("POST")
 
 	// Testing healthz route
 	router.HandleFunc("/healthz", controller.HealthzHandler).Methods("GET")

@@ -21,8 +21,9 @@ type SignInUser struct {
 }
 
 type RefreshTokenUser struct {
-	Email string `json:"email" validate:"required,email"`
-	Token string `json:"refresh_token" validate:"required"`
+	// Email string `json:"email" validate:"required,email"`
+	UserID uint64 `json:"user_id" validate:"required"`
+	Token  string `json:"refresh_token" validate:"required"`
 }
 
 func (c *Controller) HealthzHandler(w http.ResponseWriter, r *http.Request) {
@@ -79,13 +80,15 @@ func (c *Controller) SignUpHandler(w http.ResponseWriter, r *http.Request) {
 		Status:       int32(0),
 		RefreshToken: refreshToken,
 	}
-	if _, err := c.dbm.CreateUser(user); err != nil {
+	user, err = c.dbm.CreateUser(user)
+	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 
 	// Response with token
 	response := &AuthResponse{
+		UserID:       user.ID,
 		Token:        jwtToken,
 		RefreshToken: refreshToken,
 	}
@@ -122,6 +125,7 @@ func (c *Controller) SignInHandler(w http.ResponseWriter, r *http.Request) {
 		}
 
 		response := &AuthResponse{
+			UserID:       user.ID,
 			Token:        jwtToken,
 			RefreshToken: user.RefreshToken,
 		}
@@ -146,7 +150,7 @@ func (c *Controller) TokenRefreshHandler(w http.ResponseWriter, r *http.Request)
 		return
 	}
 
-	user, _ := c.dbm.GetUser(tokenUser.Email)
+	user, _ := c.dbm.GetUserByID(tokenUser.UserID)
 	if user == nil {
 		http.Error(w, "User doesn't exist!!! Please sign up first", http.StatusNotFound)
 		return
@@ -166,6 +170,7 @@ func (c *Controller) TokenRefreshHandler(w http.ResponseWriter, r *http.Request)
 	}
 
 	response := &AuthResponse{
+		UserID:       user.ID,
 		Token:        jwtToken,
 		RefreshToken: user.RefreshToken,
 	}

@@ -1,0 +1,46 @@
+2023-11-21 09:24:25.652446451[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:28:06.363695137[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:46
+[0m[33m[4.051ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@frontiir.net' ORDER BY `users`.`id` LIMIT 1
+2023-11-21 09:28:21.407071045[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:54
+[0m[33m[0.600ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE id = 1 ORDER BY `users`.`id` LIMIT 1
+2023-11-21 09:28:21.407722649[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:54 [35;1mrecord not found
+[0m[33m[0.478ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 1 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-21 09:28:55.612421289[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:19.465406790[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:19.470724009[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:19.471457970[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 09:29:23.020734616[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:23.033451490[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:23.033620335[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 09:29:30.635881797[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:52.259783573[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 09:29:55.793458613[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:54
+[0m[33m[0.580ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE id = 1 ORDER BY `users`.`id` LIMIT 1
+2023-11-21 09:29:55.794160519[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:54 [35;1mrecord not found
+[0m[33m[0.533ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 1 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-21 09:30:05.256145914[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:54
+[0m[33m[0.580ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE id = 1 ORDER BY `users`.`id` LIMIT 1
+2023-11-21 09:30:05.256702785[36m [INFO] [0m[32m/var/www/go-order-items/models/category.go:54
+[0m[33m[0.437ms] [34;1m[rows:1][0m SELECT * FROM `item_categories` WHERE id = 3 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-21 09:30:05.259831427[36m [INFO] [0m[32m/var/www/go-order-items/models/Item.go:36
+[0m[33m[3.040ms] [34;1m[rows:1][0m INSERT INTO `items` (`name`,`price`,`quantity`,`category_id`,`created_at`,`updated_at`) VALUES ('iphone 5s',5000,10,3,'2023-11-21 09:30:05.257','2023-11-21 09:30:05.257')
+2023-11-21 10:14:16.501550330[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:02.756589760[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:26.859167642[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:43.944684763[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:44.195174410[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:44.195369139[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 10:15:58.970597893[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:59.151748454[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:15:59.151938603[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 10:16:00.035138087[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:16:00.276747308[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:16:00.277038821[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 10:16:44.406312838[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:16:45.357099908[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:16:45.357370144[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 10:16:45.395922457[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:16:45.396245715[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-21 10:17:03.007638599[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:17:03.007655456[36m [INFO] [0mStarting Server on port 8008
+2023-11-21 10:17:03.007907505[31m [FATA] [0mlisten tcp :8008: bind: address already in use

@@ -1,0 +1,9 @@
+2023-11-18 10:16:08.479742157[36m [INFO] [0mStarting Server on port 8008
+2023-11-18 10:16:10.857714857[36m [INFO] [0m[31;1m/var/www/go-order-items/models/user.go:42 [35;1mrecord not found
+[0m[33m[0.850ms] [34;1m[rows:0][0m SELECT * FROM `users` WHERE email = 'noh@frontiir.net' ORDER BY `users`.`id` LIMIT 1
+2023-11-18 10:16:11.165221713[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:34
+[0m[33m[3.067ms] [34;1m[rows:1][0m INSERT INTO `users` (`name`,`email`,`password`,`address`,`status`,`refresh_token`,`created_at`,`updated_at`) VALUES ('nanoohaling','noh@frontiir.net','$2a$12$42aEmxpsTHLRQ6V76y6Qwe9i.V0gFIyFcJjj8bYBi/SHkcnnyzzzG','yangon myanmar',0,'0GX93Ew2BZxEuw==','2023-11-18 10:16:11.162','2023-11-18 10:16:11.162')
+2023-11-18 10:17:05.523953359[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:50
+[0m[33m[1.116ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE id = 1 ORDER BY `users`.`id` LIMIT 1
+2023-11-18 10:17:25.075799057[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:50
+[0m[33m[0.548ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE id = 1 ORDER BY `users`.`id` LIMIT 1

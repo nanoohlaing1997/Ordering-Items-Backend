@@ -22,6 +22,10 @@ type OrderDB struct {
 	model *Order
 }
 
+func (order *Order) TableName() string {
+	return "orders"
+}
+
 func OrderManager(db *gorm.DB) *OrderDB {
 	return &OrderDB{
 		db:    db,

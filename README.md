@@ -19,7 +19,7 @@ Simple testing project with golang
 
 ### API Doc
 
-- POST Sign_up of User
+- POST Sign_up of User (both)
 
   `request(json)` {
 	"username",
@@ -33,7 +33,7 @@ Simple testing project with golang
 	"refresh_token" : "tw523532523"
   }
 
-- GET Sign_in of User
+- GET Sign_in of User (both)
 
   `request(json)` {
 	"email",
@@ -45,7 +45,7 @@ Simple testing project with golang
 	"refresh_token" : "tw523532523"
   }
 
-- GET token refresh
+- GET token refresh (both)
 
   `request(json)` {
 	"email",
@@ -57,16 +57,71 @@ Simple testing project with golang
 	"refresh_token" : "sdgdsgssdg"
   }
 
-- GET list of categories (all) (for customer)
-- GET list of Items {category_id} (for customer)
-- POST create Item_categories {"name"} (for admin)
-- POST create Items {"name", "price", "quantity", "category_id"} (for admin)
-- POST register Customers {"email", "password", "address"} (for customer)
-- POST login Customers {"email", "password"} (for customer)
-- POST customer order items {"customer_id", "item_id", "quantity"} (for customer)
-- GET list of orders {"customer_id", "invoice_id"} (for customer) [to check delivery_status]
-- GET list of orders (all) (for both customer and admin)
-- POST change delivery status in orders ("invoice_id", "delivery_status") (for admin)
+- GET all categories ( both )
+
+  `response(json)` [
+	{
+		"id": 1,
+		"name": "i-phone",
+		"CreatedAt": "2023-11-20T05:11:05Z",
+		"UpdatedAt": "2023-11-20T05:11:05Z"
+	},
+	{
+		"id": 2,
+		"name": "air-pod",
+		"CreatedAt": "2023-11-20T05:12:42Z",
+		"UpdatedAt": "2023-11-20T05:12:42Z"
+	}
+  ]
+
+- POST create category by admin ( admin )
+
+  `request (route paramater)`
+  {user_id}
+
+  `request (json)` {
+	"category_name" : "apple"
+  }
+
+  `response(json)` {
+	"id": 5,
+	"name": "i-pad2",
+	"CreatedAt": "2023-11-20T10:21:11Z",
+	"UpdatedAt": "2023-11-20T10:21:11Z"
+  }
+
+- DELETE remove category by admin ( admin )
+
+  `request (json)` {
+	"category_id" : "2"
+  }
+
+  `response (json)`
+  Removing category process succeed!!!
+
+
+- POST create item by admin ( admin )
+
+  `request (route parameter)`
+  {user_id}
+
+  `request (json)` {
+	"name" : "iphone 5s",
+	"price" : 10000.00,
+	"quantity" : 2,
+	"category_id" : 1
+  }
+
+  `response (json)` {
+	"id": 2,
+	"name": "iphone 5s",
+	"price": 10000,
+	"quantity": 2,
+	"category_id": 1,
+	"CreatedAt": "2023-11-23T07:43:15.261Z",
+	"UpdatedAt": "2023-11-23T07:43:15.261Z"
+  }
+
 
 ### Database Table Diagram
 

@@ -1,0 +1,64 @@
+2023-11-22 07:31:05.747848517[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:32:31.154578962[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:32:31.296904768[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:32:31.297094557[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 07:34:43.976384110[36m [INFO] [0m[32m/var/www/go-order-items/models/user.go:46
+[0m[33m[3.777ms] [34;1m[rows:1][0m SELECT * FROM `users` WHERE email = 'noh@frontiir.net' ORDER BY `users`.`id` LIMIT 1
+2023-11-22 07:35:39.963746275[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:35:52.666035862[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.828ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 2 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 07:36:22.046214925[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:36:22.054185901[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:36:22.054428503[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 07:36:29.913784514[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.662ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 2 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 07:36:58.960201693[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:36:58.962413097[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:36:58.962636651[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 07:37:10.922135013[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:37:12.853650190[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:37:15.307189290[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.703ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 2 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 07:38:06.045561338[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:38:06.093687584[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 07:38:06.093906433[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 07:38:23.953919185[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.802ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 2 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:11:41.217575976[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:11:50.427289471[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:11:56.813539663[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:11:57.796369793[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:11:57.796587272[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 08:11:57.858725857[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:11:57.859056178[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 08:11:58.757919572[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.605ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 2 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:12:20.058035008[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:12:21.926307694[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.748ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 2 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:12:53.552106740[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.548ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 1 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:12:54.670459903[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.456ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 1 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:12:55.581753360[36m [INFO] [0m[31;1m/var/www/go-order-items/models/category.go:60 [35;1mrecord not found
+[0m[33m[0.474ms] [34;1m[rows:0][0m SELECT * FROM `item_categories` WHERE id = 1 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:13:01.903461247[36m [INFO] [0m[32m/var/www/go-order-items/models/category.go:60
+[0m[33m[0.524ms] [34;1m[rows:1][0m SELECT * FROM `item_categories` WHERE id = 3 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 08:13:26.812896869[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:13:32.238933989[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 08:13:34.805806536[36m [INFO] [0m[32m/var/www/go-order-items/models/category.go:60
+[0m[33m[0.734ms] [34;1m[rows:1][0m SELECT * FROM `item_categories` WHERE id = 3 ORDER BY `item_categories`.`id` LIMIT 1
+2023-11-22 09:27:51.679439846[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:30:08.675889516[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:30:09.700814513[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:30:09.701009313[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 09:38:21.939180684[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:38:39.577133992[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:38:39.776502794[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:38:39.776803739[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 09:38:57.329566111[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:43:02.219792925[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:43:02.414013026[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:43:02.414311452[31m [FATA] [0mlisten tcp :8008: bind: address already in use
+2023-11-22 09:43:02.421542392[36m [INFO] [0mStarting Server on port 8008
+2023-11-22 09:43:02.421783646[31m [FATA] [0mlisten tcp :8008: bind: address already in use

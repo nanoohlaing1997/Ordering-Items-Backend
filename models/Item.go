@@ -21,6 +21,10 @@ type ItemDB struct {
 	model *Item
 }
 
+func (item *Item) TableName() string {
+	return "items"
+}
+
 func ItemManager(db *gorm.DB) *ItemDB {
 	return &ItemDB{
 		db:    db,
@@ -28,9 +32,17 @@ func ItemManager(db *gorm.DB) *ItemDB {
 	}
 }
 
-func (im *ItemDB) ItemCreate(item *Item) (*Item, error) {
-	if res := im.db.Create(&item); res.RowsAffected <= 0 {
+func (idb *ItemDB) CreateItem(item *Item) (*Item, error) {
+	if res := idb.db.Create(&item); res.RowsAffected <= 0 {
 		return nil, res.Error
 	}
 	return item, nil
+}
+
+func (idb *ItemDB) GetItemsByCategoryID(categoryID uint64) (*Category, error) {
+	var ca Category
+	if res := idb.db.Preload("Items").First(&ca, categoryID); res.Error != nil {
+		return nil, res.Error
+	}
+	return &ca, nil
 }

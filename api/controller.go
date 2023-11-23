@@ -16,6 +16,7 @@ type Controller struct {
 }
 
 type AuthResponse struct {
+	UserID       uint64 `json:"user_id"`
 	Token        string `json:"token"`
 	RefreshToken string `json:"refresh_token"`
 }

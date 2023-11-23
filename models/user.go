@@ -23,6 +23,10 @@ type UserDB struct {
 	model *User
 }
 
+func (user *User) TableName() string {
+	return "users"
+}
+
 func UserManager(db *gorm.DB) *UserDB {
 	return &UserDB{
 		db:    db,
@@ -40,6 +44,14 @@ func (udb *UserDB) CreateUser(user *User) (*User, error) {
 func (udb *UserDB) GetUser(email string) (*User, error) {
 	var user User
 	if res := udb.db.First(&user, "email = ?", email); res.Error != nil {
+		return nil, res.Error
+	}
+	return &user, nil
+}
+
+func (udb *UserDB) GetUserByID(userID uint64) (*User, error) {
+	var user User
+	if res := udb.db.First(&user, "id = ?", userID); res.Error != nil {
 		return nil, res.Error
 	}
 	return &user, nil

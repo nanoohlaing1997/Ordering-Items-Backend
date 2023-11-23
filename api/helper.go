@@ -3,6 +3,7 @@ package api
 import (
 	"crypto/rand"
 	"encoding/base64"
+	"strconv"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
@@ -60,4 +61,12 @@ func GenerateRefreshToken() (string, error) {
 
 	token := base64.URLEncoding.EncodeToString(tokenBytes)
 	return token, nil
+}
+
+func StringToUint64(data string) (uint64, error) {
+	res, err := strconv.ParseUint(data, 10, 64)
+	if err != nil {
+		return 0, err
+	}
+	return res, nil
 }
