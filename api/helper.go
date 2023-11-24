@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
+	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -69,4 +70,12 @@ func StringToUint64(data string) (uint64, error) {
 		return 0, err
 	}
 	return res, nil
+}
+
+func GenerateInvoiceID() string {
+	uuidObj, err := uuid.NewUUID()
+	if err != nil {
+		return ""
+	}
+	return uuidObj.String()
 }

@@ -33,17 +33,48 @@ func OrderManager(db *gorm.DB) *OrderDB {
 	}
 }
 
-func (om *OrderDB) CustomerOrderCreate(order *Order) (*Order, error) {
-	if res := om.db.Create(order); res.RowsAffected <= 0 {
+type DeliveryStatus int32
+
+const (
+	Default DeliveryStatus = iota - 1
+	Pending
+	Processing
+	Done
+	Cancel
+)
+
+func (odb *OrderDB) CreateOrder(order *Order) (*Order, error) {
+	if res := odb.db.Create(order); res.RowsAffected <= 0 {
 		return nil, res.Error
 	}
 	return order, nil
 }
 
-func (om *OrderDB) GetCustomerOrder() (*Order, error) {
-	var order *Order
-	if res := om.db.First(&order); res.Error != nil {
+func (odb *OrderDB) GetOrdersByUserID(userID uint64) ([]*Order, error) {
+	orders := make([]*Order, 0)
+	if res := odb.db.Where("user_id = ?", userID).Find(&orders); res.Error != nil {
 		return nil, res.Error
 	}
-	return order, nil
+	return orders, nil
+}
+
+func (odb *OrderDB) GetOrderByInvoice(invoice string) (*Order, error) {
+	var order Order
+	if res := odb.db.Where("invoice_id = ?", invoice).First(&order); res.Error != nil {
+		return nil, res.Error
+	}
+	return &order, nil
+}
+
+func (odb *OrderDB) UpdateOrder(invoice string, status int32) (bool, error) {
+	var orderToUpdate Order
+	if err := odb.db.First(&orderToUpdate, "invoice_id = ?", invoice).Error; err != nil {
+		return false, err
+	}
+	orderToUpdate.DeliveryStatus = status
+
+	if err := odb.db.Save(&orderToUpdate).Error; err != nil {
+		return false, err
+	}
+	return true, nil
 }

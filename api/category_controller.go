@@ -2,6 +2,7 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 
 	"github.com/nanoohlaing1997/online-ordering-items/models"
@@ -69,5 +70,6 @@ func (c *Controller) DeleteCategory(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Removing category process failed!!!", http.StatusNotAcceptable)
 		return
 	}
-	http.Error(w, "Removing category process succeed!!!", http.StatusOK)
+	w.WriteHeader(http.StatusOK)
+	fmt.Fprint(w, "Removing category process succeeded!!!")
 }
