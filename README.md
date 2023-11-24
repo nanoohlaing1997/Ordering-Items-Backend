@@ -231,6 +231,9 @@ Simple testing project with golang
 	"delivery_status" : "Processing"
   }
 
+  `response`
+  "Updateing devlivery status succeeded!!!"
+
 ### Database Table Diagram
 
 ![order Database Diagram](ordering_item.png)
