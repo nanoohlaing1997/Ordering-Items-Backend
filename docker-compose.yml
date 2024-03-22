@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  app:
+    image: golang:latest
+    volumes:
+      - ./:/app/
+    working_dir: /app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    command: go run main.go
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_PASSWORD=root
+      - MYSQL_DATABASE=order
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: "order"
+      MYSQL_ROOT_PASSWORD: "root"
+      # MYSQL_USER: "user"
+      # MYSQL_PASSWORD: "root"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
